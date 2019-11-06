@@ -1,0 +1,50 @@
+body {
+    background-color: #D47776;
+}
+
+a {
+    color: gray;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 0;
+    background-color: #ECECEC;
+    width: 300px;
+    border-radius: 3px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    position: fixed;
+    left: calc( 50% - 150px);
+    top: 200px;
+}
+
+.loginForm > h3 {
+    text-align: center;
+    color: #828298;
+}
+
+input {
+margin: 15px 0px 0px 7px;
+}
+
+.userPictureContainer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #70C5C0;
+    align-self: center;
+    margin: -40px;
+    margin-bottom: 25px;
+
+}
+
+.image {
+    margin: 10px
+}
+
+.submit {
+    background-color: #70C5C0;
+}
