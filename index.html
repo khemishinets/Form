@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Form</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="" type="image/png">
 </head>
 <body>
 
 <form action="#" class="loginForm">
     <div class="userPictureContainer">
-        <img class="image" src="./assets/img/account.png" alt="">
+        <img class="image" style="margin: 20px" src="./assets/img/account.png" alt="">
     </div>
-    <h3>Member login</h3>
+    <h3>Member Login</h3>
     <input type="text" placeholder="Username" required>
 
     <input type="password" placeholder="Password" required>
 
     <input value="Sign in" class="submit" type="submit">
-    <label>
-    <input type="checkbox"> <span>Remember me</span>
+    <label class="nameCheckbox">
+    <input type="checkbox">Remember me
     </label>
-    <a href="#">Fargot password?</a>
+    <a href="#" class="fargotPassword" >Fargot password?</a>
 </form>
-
+<div class="newAccount">
+    <p class="newAccount">Don`t have an account? <a href="#" style="color: white">Sign up here?</a></p>
+</div>
 </body>
 </html>

@@ -2,10 +2,6 @@ body {
     background-color: #D47776;
 }
 
-a {
-    color: gray;
-}
-
 .loginForm {
     display: flex;
     flex-direction: column;
@@ -13,7 +9,7 @@ a {
     padding: 20px;
     padding-top: 0;
     background-color: #ECECEC;
-    width: 300px;
+    width: 350px;
     border-radius: 3px;
     box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
     position: fixed;
@@ -23,28 +19,60 @@ a {
 
 .loginForm > h3 {
     text-align: center;
-    color: #828298;
+    color: #827b7a;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nameCheckbox {
+    color: #7a7a7a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 input {
-margin: 15px 0px 0px 7px;
+    padding: 10px;
+    margin: 15px 7px 0px 7px;
+    color: #ececec;
+    font-family: 'Roboto', sans-serif;
+    border: #ececec;
+}
+
+.fargotPassword {
+    text-align: right;
+    color: #7a7a7a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: -15px;
+    margin-right: 8px;
 }
 
 .userPictureContainer {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background-color: #70C5C0;
     align-self: center;
-    margin: -40px;
+    margin: -50px;
     margin-bottom: 25px;
-
 }
 
-.image {
-    margin: 10px
+.newAccount {
+    color: white;
+    text-align: center;
+    margin-top: 525px;
+    margin-left: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 
 .submit {
     background-color: #70C5C0;
+    color: white;
+    font-weight: bold;
+    font-family: ;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0px;
 }
